@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="app.css">
+</head>
+<body>
+    
+    <svg width = "100000" height = "100000">
+
+    </svg>
+   
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+    <script>
+        //add script
+        var firebaseConfig = {
+        apiKey: "AIzaSyBT_arzIOXcSYxVRlVxA2ii3nuPM5-tRTw",
+        authDomain: "ideamapper-f3c0a.firebaseapp.com",
+        projectId: "ideamapper-f3c0a",
+        storageBucket: "ideamapper-f3c0a.appspot.com",
+        messagingSenderId: "762042201650",
+        appId: "1:762042201650:web:ef905c5177cd4e7cd6ae2b",
+        measurementId: "G-VJ1T9EHBYQ"
+        };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    const database = firebase.database();
+    </script>
+    <script src="framework.js"></script>
+    <script src = "context.js"></script>
+    <script src="embedSetUp.js"></script>
+    <script src = "imgContext.js"></script>
+    <script src = "elmFolder/objects&functions.js"></script>
+    <script src="elmFolder/elementFunctions.js"></script>
+    <script src="elmFolder/createElm.js"></script>
+    <script src = "ideaContext.js"></script>
+    <script src = "execute.js"></script>
+    
+    
+</body>
+</html>
